@@ -1,0 +1,26 @@
+{
+  "name": "datamanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "send, receive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skroneis/DataManager.git"
+  },
+  "keywords": [
+    "UDP"
+  ],
+  "author": "Stefan Kroneis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skroneis/DataManager/issues"
+  },
+  "homepage": "https://github.com/skroneis/DataManager#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "dgram": "^1.0.1"
+  }
+}
