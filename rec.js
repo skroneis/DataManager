@@ -6,7 +6,7 @@ var client = dgram.createSocket('udp4');
 // =============================
 //UDP-Settings
 var PORT = 64301; //64345;
-var HOST = '255.255.255.255'; //'255.255.255.255';
+var HOST = '0.0.0.0'; //'255.255.255.255';
 // UDP
 client.on('listening', function () {
     var address = client.address();
@@ -24,4 +24,4 @@ client.on('error', (err) => {
     client.close();
 });
 
-client.bind(PORT);
+client.bind(PORT, HOST);
